@@ -62,19 +62,24 @@ a {
 .left-sidebar {
     display: inline-block;
     float: left;
-    width: 25%;
+    width: 20%;
+    border: 1px solid black;
+    margin-right: 5px;
 }
 
-section {
+.middle-section {
     display: inline-block;
     float: left;
-    width: 50%;
+    width: 40%;
+    border: 2px solid black;
 }
 
 .right-sidebar {
     display: inline-block;
     float: left;
-    width: 25%;
+    width: 20%;
+    border: 1px solid black;
+    margin-left: 100px;
 }
 
 .images {
